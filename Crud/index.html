@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="links/bootstrap.min.css">
+    <link rel="stylesheet" href="links/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-75 mx-auto my-2">
+        <!-- form-group ملوش لازمه غير انه بيلم الهناصر وبيدهم كام margin -->
+        <div class=" form-group my-2">
+            <label for="ProductName">ProductName:</label>
+            <input class="form-control my-1" type="text" id="ProductName">
+            <small  id="wor1">(The name must contain char and number only)</small>
+        </div>
+        <div class=" form-group my-2">
+            <label for="ProductPrice">ProductPrice:</label>
+            <input class="form-control my-1" type="number" id="ProductPrice"  >
+            </div>
+        <div class=" form-group my-2">
+            <label for="ProductGatagory">ProductGatagory:</label>
+            <input class="form-control my-1" type="text" id="ProductGatagory" placeholder="tv ,phone ,screen">
+        </div>
+        <div class=" form-group my-2">
+            <label for="ProductDescription">ProductDescription:</label>
+            <textarea class=" form-control my-1"  id="ProductDescription" ></textarea>        
+        </div>
+
+        <button  onclick="go ()" class=" btn btn-outline-primary my-2" >add Product</button>
+
+    </div>
+
+    <div class=" w-75 mx-auto">
+        <label for="" class=" mb-2 fw-bold">Search</label>
+        <input onkeyup="search_product(this.value)" type="text" class=" form-control">
+    </div>
+   
+    <div class="w-75 mx-auto my-2">
+            <table class="table table-group-divider mt-4 text-white border border-1" >
+                <thead>
+                    <th></th>
+                    <th>Name </th>
+                    <th>Price</th>
+                    <th>Gatagory</th>
+                    <th>Desc</th>
+                    <th>Delet</th>
+                </thead>
+                <tbody id="tablebody">
+                    
+                </tbody>
+            </table>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="links/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

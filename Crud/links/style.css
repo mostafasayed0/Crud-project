@@ -1,0 +1,22 @@
+textarea
+{
+    resize: none;
+}
+
+h2
+{
+display: inline-block;
+}
+small
+{
+    font-style: italic;
+}
+label
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body
+{
+background-image: linear-gradient(to right top, #101927, #051e27, #062121, #13231a, #202416);
+color: rgb(200, 199, 199);
+}
