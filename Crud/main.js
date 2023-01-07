@@ -36,7 +36,7 @@ function go ()
     };
 
 };
-// الاحسن كل فانكشن انها تعمل حاجه واحده بس 
+
 
 function display_product()
 {
@@ -114,16 +114,3 @@ document.addEventListener('keydown' , function(e){
 
 
 
-
-
-
-
-
-
-
-// var x ="Ahmed";
-// var regex = /^[A-Z]/;
-
-// console.log(regex.test(x));  // true 
-
-// "ahmed"  // false
